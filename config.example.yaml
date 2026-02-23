@@ -1,0 +1,63 @@
+# Actually Remote — Configuration Template
+# ----------------------------------------
+# Copy this file to config.yaml and fill in your values.
+# config.yaml is gitignored and will never be committed.
+# Only this example file is committed to the repo.
+
+# --- AI Provider ---
+# Which AI provider to use for CV matching.
+# Options: gemini, claude, openai, ollama
+# Default: gemini (best free tier — 1,500 requests/day, no expiry)
+ai_provider: gemini
+
+# --- Job Matching Thresholds ---
+# Fit score is 0-10. Jobs below the threshold are ignored.
+# Priority companies use a slightly lower threshold (you care more about them).
+min_fit_score: 7
+priority_min_fit_score: 6
+
+# --- Target Job Titles ---
+# A job must contain at least one of these titles to be considered.
+# Case-insensitive. Partial matches work (e.g. "Engineer" matches "Solutions Engineer").
+target_titles:
+  - "Backend Engineer"
+  - "Frontend Engineer"
+
+# --- Location Keywords ---
+# A job must match at least one of these to pass the location filter.
+# This runs before AI — it's fast and free.
+# Add your country, city, or region here.
+location_keywords:
+  - "Remote"
+  - "EMEA"
+  - "Europe"
+  - "Global"
+  - "Worldwide"
+  - "Switzerland"
+  - "CH"
+
+# --- Notifications ---
+# Email is enabled by default.
+# Uncomment Discord or Telegram sections to enable them alongside email.
+
+email:
+  enabled: true
+  from: "your@gmail.com"      # the address sending the digest
+  to: "your@gmail.com"        # the address receiving the digest
+  provider: gmail              # options: gmail, resend
+
+# Discord webhook — uncomment to enable
+# discord:
+#   enabled: true
+#   # Add DISCORD_WEBHOOK_URL to your GitHub Secrets and .env
+
+# Telegram bot — uncomment to enable
+# telegram:
+#   enabled: true
+#   # Add TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID to your GitHub Secrets and .env
+
+# --- Scheduling ---
+# How many days between scrapes for non-priority companies.
+# Default: 7 (each company checked once per week)
+# Priority companies are always checked on every run.
+rotation_days: 7

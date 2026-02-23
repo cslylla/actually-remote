@@ -1,0 +1,45 @@
+# Actually Remote — CV Template
+# --------------------------------
+# Copy this file to cv.txt and replace the content with your own CV.
+# cv.txt is gitignored and will never be committed.
+#
+# Tips for best AI matching results:
+# - Plain text works best (no formatting, no tables)
+# - Include your actual job titles and skills explicitly
+# - Be specific about technologies, tools, and platforms you know
+# - Include years of experience where relevant
+# - No need to include personal details (name, address, phone)
+
+SUMMARY
+Solutions Engineer with 5 years of experience in pre-sales and post-sales
+technical roles. Skilled at bridging the gap between customer problems and
+technical solutions. Experience with API integrations, workflow automation,
+and enterprise SaaS platforms.
+
+SKILLS
+- Pre-sales: demos, POCs, RFP responses, technical discovery
+- Integration platforms: Workato, MuleSoft, Zapier
+- Languages: Python, JavaScript, SQL
+- Frontend: React, TypeScript
+- APIs: REST, GraphQL, webhooks
+- Tools: Postman, Jira, Salesforce, HubSpot
+- Cloud: AWS basics, Vercel
+
+EXPERIENCE
+
+Solutions Engineer — Example Company (2021–present)
+- Delivered product demos and technical POCs to enterprise prospects
+- Built and maintained integration scripts in Python and Workato
+- Supported customers through onboarding and technical implementation
+- Collaborated with product team on customer-reported issues
+
+Technical Support Engineer — Another Company (2019–2021)
+- Resolved complex technical issues via tickets, chat, and calls
+- Wrote internal documentation and customer-facing guides
+- Built SQL reports and dashboards for customer success metrics
+
+EDUCATION
+BSc Computer Science — University Name (2019)
+
+LANGUAGES
+English (fluent), German (intermediate)
