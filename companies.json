@@ -1,0 +1,50 @@
+[
+  {
+    "name": "PostHog",
+    "url": "https://posthog.com/careers",
+    "priority": false,
+    "category": "devtools",
+    "hq_country": "US",
+    "remote_policy": "global"
+  },
+  {
+    "name": "BetterStack",
+    "url": "https://betterstack.com/careers",
+    "priority": true,
+    "category": "devtools",
+    "hq_country": "Czech Republic",
+    "remote_policy": "global"
+  },
+  {
+    "name": "Supabase",
+    "url": "https://supabase.com/careers",
+    "priority": true,
+    "category": "devtools",
+    "hq_country": "fully remote",
+    "remote_policy": "global"
+  },
+  {
+    "name": "Hightouch",
+    "url": "https://hightouch.com/careers",
+    "priority": true,
+    "category": "customer data for marketers",
+    "hq_country": "US",
+    "remote_policy": "global"
+  },
+  {
+    "name": "Kinsta",
+    "url": "https://kinsta.com/careers/",
+    "priority": false,
+    "category": "customer data for marketers",
+    "hq_country": "US",
+    "remote_policy": "global"
+  },
+  {
+    "name": "Prezi",
+    "url": "https://prezi.com/cms/careers-prezi",
+    "priority": false,
+    "category": "cloud-based presentation software",
+    "hq_country": "US",
+    "remote_policy": "global"
+  }
+]
