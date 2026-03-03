@@ -22,7 +22,7 @@ def _score_emoji(fit_score):
 
 
 def _get_banner_path():
-    """Return path to assets/banner.png, or None if not found."""
+    """Return path to assets/email-header.png, or None if not found."""
     script_dir = os.path.dirname(os.path.abspath(__file__))
     banner_path = os.path.abspath(os.path.join(script_dir, '..', 'assets', 'banner.png'))
     return banner_path if os.path.exists(banner_path) else None
