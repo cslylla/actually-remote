@@ -1,1 +1,50 @@
-{}
+{
+  "https://jobs.ashbyhq.com/supabase/c01f7436-1fdd-4a3e-8b96-8cadc33b006e": {
+    "status": "ai_failed",
+    "title": "Support Engineer (EMEA)RemoteApply for position"
+  },
+  "https://jobs.ashbyhq.com/supabase/e4e3ccb7-7b7d-42a2-be0f-26cbb5ae4abd": {
+    "status": "ai_failed",
+    "title": "Support Engineer (AMER)RemoteApply for position"
+  },
+  "https://jobs.ashbyhq.com/supabase/142135ae-a15f-4ec7-90bb-cb4e7968bc09": {
+    "status": "ai_failed",
+    "title": "Support Engineer (APAC)RemoteApply for position"
+  },
+  "https://jobs.ashbyhq.com/supabase/f18b1173-51c3-4ff6-bcda-89f8111931f4": {
+    "status": "ai_failed",
+    "title": "Database Support Engineer (AMER)RemoteApply for position"
+  },
+  "https://jobs.ashbyhq.com/supabase/3889002e-536e-4046-a330-70e942b0cc96": {
+    "status": "ai_failed",
+    "title": "Database Support Engineer (EMEA)RemoteApply for position"
+  },
+  "https://jobs.ashbyhq.com/supabase/62945518-2468-4cf5-9f36-904b60f75183": {
+    "status": "ai_failed",
+    "title": "Database Support Engineer (APAC)RemoteApply for position"
+  },
+  "https://job-boards.greenhouse.io/hightouch/jobs/5379537004": {
+    "status": "ai_failed",
+    "title": "Technical Account ManagerRemote (North America)"
+  },
+  "https://job-boards.greenhouse.io/hightouch/jobs/5770046004": {
+    "status": "ai_failed",
+    "title": "Customer Success Engineer Remote (Europe)"
+  },
+  "https://job-boards.greenhouse.io/hightouch/jobs/5807949004": {
+    "status": "ai_failed",
+    "title": "Partner Solutions EngineerRemote (North America)"
+  },
+  "https://job-boards.greenhouse.io/hightouch/jobs/5535187004": {
+    "status": "ai_failed",
+    "title": "Mid-Market Solutions EngineerRemote (North America)"
+  },
+  "https://job-boards.greenhouse.io/hightouch/jobs/5732906004": {
+    "status": "ai_failed",
+    "title": "Solutions Engineer (France)Paris, France"
+  },
+  "https://railway.com/careers/solutions-architect": {
+    "status": "ai_failed",
+    "title": "Senior Solutions EngineerAnywhere"
+  }
+}
