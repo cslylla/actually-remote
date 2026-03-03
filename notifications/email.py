@@ -24,7 +24,7 @@ def _score_emoji(fit_score):
 def _get_banner_path():
     """Return path to assets/email-header.png, or None if not found."""
     script_dir = os.path.dirname(os.path.abspath(__file__))
-    banner_path = os.path.abspath(os.path.join(script_dir, '..', 'assets', 'banner.png'))
+    banner_path = os.path.abspath(os.path.join(script_dir, '..', 'assets', 'email-header.png'))
     return banner_path if os.path.exists(banner_path) else None
 
 
@@ -46,7 +46,7 @@ def send_email_digest(matched_jobs, companies_checked, config):
         banner_html = '<img src="cid:banner" alt="Actually Remote" style="width: 100%; height: auto; display: block; vertical-align: top;" />'
         with open(banner_path, 'rb') as f:
             banner_attachment = {
-                "filename": "banner.png",
+                "filename": "email-header.png",
                 "content": base64.b64encode(f.read()).decode('utf-8'),
                 "content_id": "banner",
                 "content_type": "image/png",
