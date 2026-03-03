@@ -36,6 +36,9 @@ jobs:
       - name: Create config.yaml from secret
         run: echo "${{ secrets.CONFIG_YAML }}" > config.yaml
 
+      - name: Create cv.txt from secret
+        run: echo "${{ secrets.CV_TEXT }}" > cv.txt
+
       - name: Run scraper
         run: python main.py
 
