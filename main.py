@@ -45,7 +45,14 @@ def _load_config():
     with open('config.yaml', 'r', encoding='utf-8') as f:
         config = yaml.safe_load(f)
 
-    NOTIFICATION_CHANNELS = config.get('notification_channels', ['discord'])
+    channels = config.get('notification_channels', ['discord'])
+    if isinstance(channels, str):
+        channels = [c.strip() for c in channels.split(' - ') if c.strip()]
+    elif channels and isinstance(channels[0], str) and ' - ' in str(channels[0]):
+        channels = [c.strip() for c in channels[0].split(' - ') if c.strip()]
+    if not channels:
+        channels = ['discord']
+    NOTIFICATION_CHANNELS = channels
     MIN_FIT_SCORE = config.get('min_fit_score', 7)
     PRIORITY_MIN_FIT_SCORE = config.get('priority_min_fit_score', 6)
     TARGET_TITLES = config.get('target_titles', ['Backend Engineer', 'Frontend Engineer'])
@@ -113,7 +120,8 @@ def run_pipeline(companies_to_run, cv_text, dry_run=False):
 
             job_description = fetch_job_description(job_url)
             if not job_description:
-                seen_jobs[job_url] = {'status': 'failed_jd_fetch', 'title': job['title']}
+                seen_jobs[job_url] = {
+                    'status': 'failed_jd_fetch', 'title': job['title']}
                 continue
 
             loc_in_title = matches_any(job['title'], LOCATION_KEYWORDS)
@@ -121,18 +129,22 @@ def run_pipeline(companies_to_run, cv_text, dry_run=False):
 
             if not (loc_in_title or loc_in_desc):
                 print(f"    ⏩ Skipping: Location mismatch")
-                seen_jobs[job_url] = {'status': 'skipped_location', 'title': job['title']}
+                seen_jobs[job_url] = {
+                    'status': 'skipped_location', 'title': job['title']}
                 continue
 
             try:
                 print(f"    🤔 Analyzing fit with AI...")
                 if dry_run:
-                    fit_analysis = mock_analyze_job_fit(job['title'], job_description, cv_text)
+                    fit_analysis = mock_analyze_job_fit(
+                        job['title'], job_description, cv_text)
                 else:
-                    fit_analysis = analyze_job_fit(model, job['title'], job_description, cv_text)
+                    fit_analysis = analyze_job_fit(
+                        model, job['title'], job_description, cv_text)
 
                 if not fit_analysis:
-                    seen_jobs[job_url] = {'status': 'ai_failed', 'title': job['title']}
+                    seen_jobs[job_url] = {
+                        'status': 'ai_failed', 'title': job['title']}
                     continue
 
                 fit_score = fit_analysis['fit_score']
@@ -156,23 +168,37 @@ def run_pipeline(companies_to_run, cv_text, dry_run=False):
                         'is_priority': is_priority,
                         'fit_analysis': fit_analysis,
                     })
-                    if max_alerts and alerts_sent >= max_alerts:
-                        print(f"    ⏭️ Reached max alerts ({max_alerts}). Stopping.")
-                        break
                     if 'discord' in NOTIFICATION_CHANNELS:
-                        send_discord_alert(job, fit_analysis, is_priority, config)
+                        send_discord_alert(
+                            job, fit_analysis, is_priority, config)
                     if 'telegram' in NOTIFICATION_CHANNELS:
-                        send_telegram_alert(job, fit_analysis, is_priority, config)
+                        send_telegram_alert(
+                            job, fit_analysis, is_priority, config)
                     alerts_sent += 1
+
+                    if max_alerts and alerts_sent >= max_alerts:
+                        print(
+                            f"    ⏭️ Reached max alerts ({max_alerts}). Stopping.")
+                        save_json('seen_jobs.json', seen_jobs)
+                        if 'discord' in NOTIFICATION_CHANNELS:
+                            send_discord_summary(
+                                matched_jobs, len(companies_to_run), config)
+                        if 'telegram' in NOTIFICATION_CHANNELS:
+                            send_telegram_summary(
+                                matched_jobs, len(companies_to_run), config)
+                        if 'email' in NOTIFICATION_CHANNELS:
+                            send_email_digest(matched_jobs, len(
+                                companies_to_run), config)
+                        return
                 else:
                     print(f"    ⏭️ Skipped (Score {fit_score} < {threshold})")
 
             except Exception as e:
                 error_msg = str(e).lower()
                 print(f"    ❌ AI Analysis failed for {job['title']}: {str(e)}")
-
                 if "429" in error_msg or "quota" in error_msg or "limit" in error_msg:
-                    print("    🛑 API Quota reached. Saving progress and stopping for today.")
+                    print(
+                        "    🛑 API Quota reached. Saving progress and stopping for today.")
                     break
                 continue
 
@@ -185,7 +211,6 @@ def run_pipeline(companies_to_run, cv_text, dry_run=False):
         f"🔔 Alerts sent: {alerts_sent}"
     )
 
-    # Summaries (after pipeline completes)
     if 'discord' in NOTIFICATION_CHANNELS:
         send_discord_summary(matched_jobs, len(companies_to_run), config)
     if 'telegram' in NOTIFICATION_CHANNELS:
@@ -197,7 +222,8 @@ def run_pipeline(companies_to_run, cv_text, dry_run=False):
 
     save_json('seen_jobs.json', seen_jobs)
     print("\n" + "=" * 60)
-    print(f"✅ COMPLETE | New Found: {new_jobs_found} | Alerts Sent: {alerts_sent}")
+    print(
+        f"✅ COMPLETE | New Found: {new_jobs_found} | Alerts Sent: {alerts_sent}")
     print("=" * 60)
 
 

@@ -95,7 +95,8 @@ companies.csv → scraper → location filter → AI scoring → your inbox / Di
 
 - Click Fork in the top right
 - Set your fork to Private (recommended, it keeps your job search private)
-- ⚠️ Important: Go to Settings → Actions → General → set "Workflow permissions" to "Read and write permissions"
+
+> ⚠️ Important: Go to Settings → Actions → General → set "Workflow permissions" to "Read and write permissions"
 
 ### Step 2: Clone your fork locally
 
@@ -134,7 +135,7 @@ Replace the content with your real CV. Plain text works best, no formatting need
 
 ### Step 5: Clear seen_jobs.json
 
-⚠️ Important: Replace the contents of `seen_jobs.json` with `{}`. Otherwise you will inherit the author's job history and miss real matches.
+> ⚠️ Important: Replace the contents of `seen_jobs.json` with `{}`. Otherwise you will inherit the author's job history and miss real matches.
 
 ### Step 6: Set up notifications
 
@@ -300,6 +301,8 @@ The agent searches Ashby, Greenhouse, and Lever job boards using your `target_ti
 - Validates each URL is accessible before suggesting it
 - Sends results via your configured notification channels
 - Saves results to `discovery_results.txt`
+
+>💡 The agent typically takes 2–5 minutes to complete: it runs multiple web searches, validates each discovered URL, and sends notifications. If API rate limits are reached, errors will appear in the terminal and the affected queries will be skipped.
 
 **Output example:**
 

@@ -106,12 +106,14 @@ def send_email_digest(matched_jobs, companies_checked, config):
             reasons_for_html = "".join([f"<li>{r}</li>" for r in reasons_for])
 
             card = f"""
-  <div style="border: 1px solid #eee; border-left: 4px solid ##DBA11C; border-radius: 8px; padding: 16px; margin-bottom: 24px; background-color: ##dfE0DF;">
+  <div style="border: 1px solid #eee; border-left: 4px solid #DBA11C;
+              border-radius: 8px; padding: 16px; margin-bottom: 24px;
+              background-color: #fafafa;">
     <p style="margin: 0 0 8px 0; font-size: 14px;">
       {emoji} <strong>{fit_score}/10</strong>{priority_tag} — {fit_analysis.get('recommendation', '')}
     </p>
     <p style="margin: 0 0 8px 0; font-size: 16px;">
-      <a href="{job['url']}" style="color: #0066cc;">{job['title']}</a>
+      <a href="{job['url']}" style="color: #DBA11C;">{job['title']}</a>
     </p>
     <p style="margin: 0 0 12px 0; color: #666;">{job['company']}</p>
     <p style="margin: 0 0 4px 0; font-size: 14px;"><strong>✅ Good fit:</strong></p>
@@ -127,8 +129,8 @@ def send_email_digest(matched_jobs, companies_checked, config):
 <head><meta charset="utf-8"><title>{subject}</title></head>
 <body style="font-family: system-ui, sans-serif; margin: 0; padding: 0;">
   {banner_html}
-  <div style="max-width: 600px; margin: 0 auto; padding: 20px;">
-    <p style="color: #666;">{today}</p>
+  <div style="max-width: 600px; margin: 0 auto; padding: 24px 32px;">
+    <p style="color: #666; margin-top: 0;">{today}</p>
 {"".join(cards_html)}
     <hr style="border: none; border-top: 1px solid #eee; margin: 24px 0;">
     <p style="color: #999; font-size: 12px;">Powered by Actually Remote</p>
