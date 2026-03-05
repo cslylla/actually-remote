@@ -19,6 +19,7 @@
 - [Usage tips](#usage-tips)
 - [Notifications setup](#notifications-setup)
 - [Adding companies](#adding-companies)
+- [Company Discovery](#company-discovery)
 - [How it runs](#how-it-runs)
 - [Contributing](#contributing)
 - [Roadmap](#roadmap)
@@ -33,17 +34,18 @@ The problem isn't the jobs. The problem is finding them.
 
 Job boards are built around the US market. "Remote" means remote in the US. "Europe" means Germany or UK if you're lucky. If you're in Switzerland, Portugal, or anywhere else, you're missing out on great opportunities. And the companies worth working for? Many of them don't bother posting on LinkedIn or Indeed at all. They have a careers page, a few open roles, and no marketing budget for job boards.
 
-**Actually Remote** watches those companies directly. You define the list, set your job titles and location, drop in your CV, and it tells you when something relevant shows up. Every day and Automatically.
+**Actually Remote** watches those companies directly. You define the list, set your job titles and location, drop in your CV, and it tells you when something relevant shows up automatically everyday.
 
 ---
 
 ## How it works
 
 1. You define your target job titles and location keywords in `config.yaml`
-2. Actually Remote watches your target companies daily (via GitHub Actions)
+2. **Actually Remote** watches your target companies daily (via **GitHub Actions**)
 3. Each job passes through a location filter (fast, free, no AI)
-4. Matching jobs are scored against your CV by AI (fit score, reasons for/against)
+4. Matching jobs are scored against your CV by **AI** (fit score, reasons for/against)
 5. You receive a daily digest with only relevant matches (email, Discord, or Telegram)
+6. Optionally run the discovery agent to expand your list. Use the **AI agent** that searches the web in real time to find remote-friendly companies worth tracking
 
 ```
 companies.csv → scraper → location filter → AI scoring → your inbox / Discord / Telegram
@@ -67,6 +69,7 @@ companies.csv → scraper → location filter → AI scoring → your inbox / Di
 - Community-maintained company list: CSV, editable in browser
 - PR validation: auto dry-run on `companies.csv` changes
 - Zero cost to run: GitHub Actions free tier + Gemini free tier
+- **Company discovery agent**: finds new remote-friendly companies you haven't heard of yet using AI + Google Search
 
 ---
 
@@ -77,6 +80,7 @@ companies.csv → scraper → location filter → AI scoring → your inbox / Di
 | Language | Python 3.12 |
 | Scraping | requests + BeautifulSoup4 |
 | AI | Google Gemini (pluggable) |
+| Discovery Agent | Google Gemini + Google Search grounding |
 | Email | Resend |
 | Config | YAML |
 | Company list | CSV |
@@ -276,6 +280,54 @@ git pull upstream main
 
 ---
 
+## Company Discovery
+
+**Actually Remote** ships with a curated list of 100+ companies. But the **discovery agent** can find companies you haven't heard of yet.
+
+Run it manually whenever you want to expand your list:
+
+```
+python discover.py
+```
+
+The agent searches Ashby, Greenhouse, and Lever job boards using your `target_titles` and `location_keywords` from `config.yaml`.
+
+**What it does:**
+
+- Runs up to 6 search queries combining your job titles and locations
+- Uses Gemini with Google Search to find matching companies
+- Filters out companies already in your `companies.csv`
+- Validates each URL is accessible before suggesting it
+- Sends results via your configured notification channels
+- Saves results to `discovery_results.txt`
+
+**Output example:**
+
+```
+🔍 Actually Remote — Discovery Run
+Found 7 new companies to consider:
+
+- Paddle — https://paddle.com/careers
+- Wasabi Technologies — https://boards.greenhouse.io/wasabi
+- Stripe — https://stripe.com/jobs
+```
+
+**Important — free tier limits:**
+
+The discovery agent uses your Gemini API key. On the free tier:
+
+- Gemini 2.5 Flash: 5 requests per minute
+- Gemini 2.5 Flash Lite: 10 requests per minute
+- Running 6 queries uses 6 requests (within limits)
+- Avoid running it multiple times in quick succession
+- Do not run it on the same day as heavy scraper testing
+
+**Adding discoveries to your list:**
+
+Review the suggestions and add the ones you want to `companies.csv`. Either edit directly in GitHub browser or locally. The discovery agent doe not modify your `companies.csv` automatically.
+
+---
+
 ## How it runs
 
 - **Schedule:** Daily at 5am UTC (6am CET)
@@ -310,7 +362,7 @@ PRs that touch `companies.csv` are automatically validated with `--dry-run`.
 - [x] Telegram notifications
 - [x] GitHub Actions automation
 - [x] Community company list with PR validation
-- [ ] Company discovery agent (search Ashby/Greenhouse/Lever)
+- [x] Company discovery agent (search Ashby/Greenhouse/Lever)
 - [ ] Playwright support for JS-heavy career pages
 - [ ] Gmail SMTP support
 - [ ] Slack notifications
