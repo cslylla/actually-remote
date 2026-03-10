@@ -198,5 +198,19 @@
     "title": "Solutions Architect US (Remote)",
     "fit_score": 8,
     "alerted": true
+  },
+  "https://cast.ai/careers/apply/?gh_jid=4169684009": {
+    "first_seen": "2026-03-10T05:52:22.513410",
+    "company": "Cast AI",
+    "title": "Senior Technical Support Engineering",
+    "fit_score": 8,
+    "alerted": true
+  },
+  "https://cast.ai/careers/apply/?gh_jid=4015843009": {
+    "first_seen": "2026-03-10T05:52:42.340934",
+    "company": "Cast AI",
+    "title": "Solutions Architect (USA)",
+    "fit_score": 2,
+    "alerted": false
   }
 }
