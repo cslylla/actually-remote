@@ -219,5 +219,12 @@
     "title": "Customer Success EngineerRemote (North America)",
     "fit_score": 9,
     "alerted": true
+  },
+  "https://www.upwind.io/careers/co/us-remote/3B.368/solutions-architect-east-central/all": {
+    "first_seen": "2026-03-15T06:07:31.637633",
+    "company": "Upwind",
+    "title": "Solutions Architect (East & Central) US (Remote)",
+    "fit_score": 2,
+    "alerted": false
   }
 }
