@@ -226,5 +226,19 @@
     "title": "Solutions Architect (East & Central) US (Remote)",
     "fit_score": 2,
     "alerted": false
+  },
+  "https://cast.ai/careers/apply/?gh_jid=4194235009": {
+    "first_seen": "2026-03-30T06:55:10.793060",
+    "company": "Cast AI",
+    "title": "Technical Account Manager | Seoul",
+    "fit_score": 2,
+    "alerted": false
+  },
+  "https://cast.ai/careers/apply/?gh_jid=4201723009": {
+    "first_seen": "2026-03-30T06:55:27.555216",
+    "company": "Cast AI",
+    "title": "Technical Account Manager | USA",
+    "fit_score": 1,
+    "alerted": false
   }
 }
