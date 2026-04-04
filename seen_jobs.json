@@ -240,5 +240,12 @@
     "title": "Technical Account Manager | USA",
     "fit_score": 1,
     "alerted": false
+  },
+  "https://job-boards.greenhouse.io/runpod/jobs/5173070008": {
+    "first_seen": "2026-04-04T06:02:05.929600",
+    "company": "Runpod",
+    "title": "Forward Deployed Engineer APACNewRemote, APAC",
+    "fit_score": 9,
+    "alerted": true
   }
 }
