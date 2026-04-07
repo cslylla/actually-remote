@@ -247,5 +247,19 @@
     "title": "Forward Deployed Engineer APACNewRemote, APAC",
     "fit_score": 9,
     "alerted": true
+  },
+  "https://job-boards.greenhouse.io/hightouch/jobs/5842463004": {
+    "first_seen": "2026-04-07T06:21:17.079957",
+    "company": "Hightouch",
+    "title": "Technical Account ManagerRemote (Australia)",
+    "fit_score": 9,
+    "alerted": true
+  },
+  "https://job-boards.greenhouse.io/hightouch/jobs/5842464004": {
+    "first_seen": "2026-04-07T06:21:35.179930",
+    "company": "Hightouch",
+    "title": "Technical Account ManagerRemote",
+    "fit_score": 9,
+    "alerted": true
   }
 }
