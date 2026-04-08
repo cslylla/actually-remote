@@ -261,5 +261,19 @@
     "title": "Technical Account ManagerRemote",
     "fit_score": 9,
     "alerted": true
+  },
+  "https://job-boards.greenhouse.io/hightouch/jobs/5852695004": {
+    "first_seen": "2026-04-08T06:22:46.187764",
+    "company": "Hightouch",
+    "title": "Solutions Engineer EMEA (German speaking) EMEA",
+    "fit_score": 9,
+    "alerted": true
+  },
+  "https://jobs.ashbyhq.com/supabase/a5a5a35a-ff03-4777-bb05-6eaaf5e8a1a6": {
+    "first_seen": "2026-04-08T06:23:03.644891",
+    "company": "Supabase",
+    "title": "Strategic Customer Solutions Architect (AMER)AMERApply for position",
+    "fit_score": 2,
+    "alerted": false
   }
 }
