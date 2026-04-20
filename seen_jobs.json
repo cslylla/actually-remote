@@ -291,5 +291,12 @@
   "https://resend.com/careers/f0af27d1-eddd-42b9-a962-f34dc350c390": {
     "status": "ai_failed",
     "title": "Customer Success EngineerAmericas / Remote / Full-time"
+  },
+  "https://job-boards.greenhouse.io/alpaca/jobs/5972648004": {
+    "first_seen": "2026-04-20T07:19:33.014221",
+    "company": "Alpaca",
+    "title": "Production Support EngineerNewRemote - APAC",
+    "fit_score": 7,
+    "alerted": true
   }
 }
