@@ -298,5 +298,12 @@
     "title": "Production Support EngineerNewRemote - APAC",
     "fit_score": 7,
     "alerted": true
+  },
+  "https://remote.com/openings/7702818003": {
+    "first_seen": "2026-04-25T06:21:58.802721",
+    "company": "Remote",
+    "title": "Senior Partner Solutions Architect",
+    "fit_score": 8,
+    "alerted": true
   }
 }
