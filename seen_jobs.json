@@ -312,5 +312,41 @@
     "title": "Senior Technical Account Manager | Seoul",
     "fit_score": 1,
     "alerted": false
+  },
+  "https://elevenlabs.io/careers/8a88f764-27f5-46d7-8ce0-0ba15401efb1/enterprise-solutions-engineer-brazil": {
+    "status": "ai_failed",
+    "title": "Enterprise Solutions Engineer - BrazilRemoteBrazil"
+  },
+  "https://elevenlabs.io/careers/3466ba20-f61f-4a51-a1ee-5a24a2217fa8/enterprise-solutions-engineer-brazil": {
+    "status": "ai_failed",
+    "title": "Enterprise Solutions Engineer - Brazil RemoteBrazil"
+  },
+  "https://elevenlabs.io/careers/4509df6f-b839-44d6-b31f-d7f364cec949/enterprise-solutions-engineer-europe": {
+    "status": "ai_failed",
+    "title": "Enterprise Solutions Engineer - EuropeRemoteUnited Kingdom+7 more"
+  },
+  "https://elevenlabs.io/careers/ce00fe7b-a93a-436b-bd5e-2eff87c48f23/enterprise-solutions-engineer-france": {
+    "status": "ai_failed",
+    "title": "Enterprise Solutions Engineer - FranceFrance"
+  },
+  "https://elevenlabs.io/careers/46bad7dc-c8d7-403d-8b10-a2d71c005384/enterprise-solutions-engineer-latam": {
+    "status": "ai_failed",
+    "title": "Enterprise Solutions Engineer - LATAM RemoteMexico"
+  },
+  "https://elevenlabs.io/careers/81f53be2-dd0e-433d-94bf-d506973be1ed/enterprise-solutions-engineer-mexico": {
+    "status": "ai_failed",
+    "title": "Enterprise Solutions Engineer - MexicoRemoteMexico"
+  },
+  "https://elevenlabs.io/careers/5d01b08d-a300-4f29-93e4-039147d7ddd7/enterprise-solutions-engineer-oceania": {
+    "status": "ai_failed",
+    "title": "Enterprise Solutions Engineer - OceaniaRemoteAustralia+1 more"
+  },
+  "https://elevenlabs.io/careers/b081fafb-3659-4bf6-8e87-eb5ccc3ff234/enterprise-solutions-engineer-spain": {
+    "status": "ai_failed",
+    "title": "Enterprise Solutions Engineer - SpainRemoteSpain"
+  },
+  "https://elevenlabs.io/careers/fb1fd9cc-bd6d-4895-be29-4bc37d0c31a0/solutions-engineer-india": {
+    "status": "ai_failed",
+    "title": "Solutions Engineer - IndiaRemoteIndia"
   }
 }
