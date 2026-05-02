@@ -348,5 +348,12 @@
   "https://elevenlabs.io/careers/fb1fd9cc-bd6d-4895-be29-4bc37d0c31a0/solutions-engineer-india": {
     "status": "ai_failed",
     "title": "Solutions Engineer - IndiaRemoteIndia"
+  },
+  "https://poolside.ai/careers/member-of-engineering-technical-support-engineer--8e95baf3-5807-4524-999f-9186581a0cdd": {
+    "first_seen": "2026-05-02T07:03:19.338490",
+    "company": "Poolside",
+    "title": "â Member of Engineering (Technical Support Engineer)",
+    "fit_score": 2,
+    "alerted": false
   }
 }
