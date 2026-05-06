@@ -355,5 +355,16 @@
     "title": "â Member of Engineering (Technical Support Engineer)",
     "fit_score": 2,
     "alerted": false
+  },
+  "https://elevenlabs.io/careers/1a9d687d-0030-4732-8160-f1da54844bba/enterprise-solutions-engineer-anz": {
+    "status": "ai_failed",
+    "title": "Enterprise Solutions Engineer - ANZRemoteAustralia"
+  },
+  "https://elevenlabs.io/careers/85b7489f-5b0c-4f21-9c1c-7b76ed904c44/enterprise-solutions-engineer-singapore": {
+    "first_seen": "2026-05-06T07:38:10.157330",
+    "company": "ElevenLabs",
+    "title": "Enterprise Solutions Engineer - SingaporeRemoteSingapore+3 more",
+    "fit_score": 5,
+    "alerted": false
   }
 }
