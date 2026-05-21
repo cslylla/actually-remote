@@ -391,5 +391,19 @@
   "https://elevenlabs.io/careers/1285b935-1398-4116-8576-70a58896faa8/enterprise-solutions-engineer-middle-east": {
     "status": "ai_failed",
     "title": "Enterprise Solutions Engineer - Middle EastRemoteUAE"
+  },
+  "https://job-boards.greenhouse.io/hightouch/jobs/6001217004": {
+    "first_seen": "2026-05-21T08:37:51.113645",
+    "company": "Hightouch",
+    "title": "Solutions Engineer, Mid-Market (Pre-Sales)Toronto, Ontario Canada",
+    "fit_score": 9,
+    "alerted": true
+  },
+  "https://job-boards.greenhouse.io/hightouch/jobs/6001225004": {
+    "first_seen": "2026-05-21T08:38:17.423294",
+    "company": "Hightouch",
+    "title": "Solutions Engineer, Enterprise East (Pre-Sales)Toronto, Ontario, Canada",
+    "fit_score": 9,
+    "alerted": true
   }
 }
