@@ -405,5 +405,13 @@
     "title": "Solutions Engineer, Enterprise East (Pre-Sales)Toronto, Ontario, Canada",
     "fit_score": 9,
     "alerted": true
+  },
+  "https://job-boards.greenhouse.io/hightouch/jobs/6000330004": {
+    "status": "ai_failed",
+    "title": "Technical Account Manager, EastRemote (North America)"
+  },
+  "https://job-boards.greenhouse.io/hightouch/jobs/6002877004": {
+    "status": "ai_failed",
+    "title": "Manager, Solutions Engineering, Mid-MarketRemote"
   }
 }
