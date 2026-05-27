@@ -413,5 +413,26 @@
   "https://job-boards.greenhouse.io/hightouch/jobs/6002877004": {
     "status": "ai_failed",
     "title": "Manager, Solutions Engineering, Mid-MarketRemote"
+  },
+  "https://elevenlabs.io/careers/d46c3fc8-b87b-4b8b-bcc2-759944f77ae5/enterprise-solutions-engineer-germany": {
+    "first_seen": "2026-05-27T08:41:44.253679",
+    "company": "ElevenLabs",
+    "title": "Enterprise Solutions Engineer - GermanyRemoteGermany",
+    "fit_score": 9,
+    "alerted": true
+  },
+  "https://elevenlabs.io/careers/275f43d0-b62d-401d-830c-7c1ac0e688aa/enterprise-solutions-engineer-north-america": {
+    "first_seen": "2026-05-27T08:42:07.629074",
+    "company": "ElevenLabs",
+    "title": "Enterprise Solutions Engineer - North AmericaRemoteCanada+3 more",
+    "fit_score": 9,
+    "alerted": true
+  },
+  "https://elevenlabs.io/careers/6c4c57c1-ec72-42ba-af3a-eb7aebbde2e6/forward-deployed-engineer-software-engineer": {
+    "first_seen": "2026-05-27T08:42:27.298808",
+    "company": "ElevenLabs",
+    "title": "Forward Deployed Engineer - Software EngineerRemoteBrazil+4 more",
+    "fit_score": 9,
+    "alerted": true
   }
 }
