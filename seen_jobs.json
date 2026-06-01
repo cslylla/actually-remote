@@ -434,5 +434,16 @@
     "title": "Forward Deployed Engineer - Software EngineerRemoteBrazil+4 more",
     "fit_score": 9,
     "alerted": true
+  },
+  "https://attio.com/careers/forward-deployed-engineer-new-york-hybrid": {
+    "first_seen": "2026-06-01T10:26:54.383344",
+    "company": "Attio",
+    "title": "07Forward Deployed EngineerNew York [Hybrid]",
+    "fit_score": 2,
+    "alerted": false
+  },
+  "https://attio.com/careers/forward-deployed-engineer-san-francisco-hybrid": {
+    "status": "ai_failed",
+    "title": "08Forward Deployed EngineerSan Francisco [Hybrid]"
   }
 }
