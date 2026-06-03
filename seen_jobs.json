@@ -445,5 +445,12 @@
   "https://attio.com/careers/forward-deployed-engineer-san-francisco-hybrid": {
     "status": "ai_failed",
     "title": "08Forward Deployed EngineerSan Francisco [Hybrid]"
+  },
+  "https://job-boards.greenhouse.io/hightouch/jobs/6011820004": {
+    "first_seen": "2026-06-03T09:58:28.000371",
+    "company": "Hightouch",
+    "title": "Partner Solutions EngineerRemote (North America)",
+    "fit_score": 2,
+    "alerted": false
   }
 }
