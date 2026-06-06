@@ -452,5 +452,19 @@
     "title": "Partner Solutions EngineerRemote (North America)",
     "fit_score": 2,
     "alerted": false
+  },
+  "https://job-boards.greenhouse.io/hightouch/jobs/6015438004": {
+    "first_seen": "2026-06-06T07:49:16.717310",
+    "company": "Hightouch",
+    "title": "Technical Account Manager, Mid-MarketRemote (North America)",
+    "fit_score": 2,
+    "alerted": false
+  },
+  "https://remote.com/openings/7763391003": {
+    "first_seen": "2026-06-06T07:49:37.732280",
+    "company": "Remote",
+    "title": "Senior Solutions Engineer",
+    "fit_score": 9,
+    "alerted": true
   }
 }
