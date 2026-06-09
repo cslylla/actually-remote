@@ -466,5 +466,12 @@
     "title": "Senior Solutions Engineer",
     "fit_score": 9,
     "alerted": true
+  },
+  "https://railway.com/careers/senior-customer-success-engineer": {
+    "first_seen": "2026-06-09T08:34:08.085524",
+    "company": "Railway",
+    "title": "Senior Customer Success EngineerAnywhere",
+    "fit_score": 8,
+    "alerted": true
   }
 }
