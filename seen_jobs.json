@@ -473,5 +473,17 @@
     "title": "Senior Customer Success EngineerAnywhere",
     "fit_score": 8,
     "alerted": true
+  },
+  "https://elevenlabs.io/careers/07a8552c-4206-4c27-9f0d-d72d3e40d2a1/enterprise-solutions-engineer-belgium": {
+    "status": "ai_failed",
+    "title": "Enterprise Solutions Engineer - BelgiumBelgium"
+  },
+  "https://elevenlabs.io/careers/3f10ccc9-56a9-40bf-b5f1-33ab5834ff4a/enterprise-solutions-engineer-netherlands": {
+    "status": "ai_failed",
+    "title": "Enterprise Solutions Engineer - NetherlandsRemoteNetherlands"
+  },
+  "https://elevenlabs.io/careers/fc24cc63-43de-46e1-a1aa-2910013f5e7f/forward-deployed-engineering-recruiter": {
+    "status": "ai_failed",
+    "title": "Forward Deployed Engineering RecruiterRemoteArgentina+12 more"
   }
 }
