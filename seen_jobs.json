@@ -485,5 +485,9 @@
   "https://elevenlabs.io/careers/fc24cc63-43de-46e1-a1aa-2910013f5e7f/forward-deployed-engineering-recruiter": {
     "status": "ai_failed",
     "title": "Forward Deployed Engineering RecruiterRemoteArgentina+12 more"
+  },
+  "https://jobs.ashbyhq.com/supabase/aedb068b-3666-409d-ba50-f509dbfb24ed": {
+    "status": "skipped_location",
+    "title": "Support Engineering Manager (APAC)APACApply for position"
   }
 }
