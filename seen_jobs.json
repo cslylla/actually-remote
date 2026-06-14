@@ -489,5 +489,12 @@
   "https://jobs.ashbyhq.com/supabase/aedb068b-3666-409d-ba50-f509dbfb24ed": {
     "status": "skipped_location",
     "title": "Support Engineering Manager (APAC)APACApply for position"
+  },
+  "https://www.upwind.io/careers/co/us-remote/3B.368/solutions-architect-east/all": {
+    "first_seen": "2026-06-14T08:43:21.862572",
+    "company": "Upwind",
+    "title": "Solutions Architect (East) US (Remote)",
+    "fit_score": 2,
+    "alerted": false
   }
 }
