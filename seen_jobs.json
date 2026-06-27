@@ -503,5 +503,12 @@
     "title": "Solutions Architect - Central US (Remote)",
     "fit_score": 8,
     "alerted": true
+  },
+  "https://remote.com/openings/7774935003": {
+    "first_seen": "2026-06-27T07:52:20.292323",
+    "company": "Remote",
+    "title": "Senior Forward Deployed Engineer (Remote Build)",
+    "fit_score": 8,
+    "alerted": true
   }
 }
