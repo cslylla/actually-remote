@@ -510,5 +510,26 @@
     "title": "Senior Forward Deployed Engineer (Remote Build)",
     "fit_score": 8,
     "alerted": true
+  },
+  "https://job-boards.greenhouse.io/hightouch/jobs/5838911004": {
+    "first_seen": "2026-07-01T08:51:57.736125",
+    "company": "Hightouch",
+    "title": "Solutions Engineer, Senior Enterprise (Pre-Sales)New York, NY",
+    "fit_score": 9,
+    "alerted": true
+  },
+  "https://job-boards.greenhouse.io/hightouch/jobs/6104620004": {
+    "first_seen": "2026-07-01T08:52:16.564140",
+    "company": "Hightouch",
+    "title": "Solutions Engineer, Mid-Market (Pre-Sales)Europe",
+    "fit_score": 8,
+    "alerted": true
+  },
+  "https://elevenlabs.io/careers/90d0cc88-b81c-40d6-be4c-0984c118ecf7/enterprise-solutions-engineer-chile": {
+    "first_seen": "2026-07-01T08:52:36.199779",
+    "company": "ElevenLabs",
+    "title": "Enterprise Solutions Engineer - ChileChile",
+    "fit_score": 9,
+    "alerted": true
   }
 }
