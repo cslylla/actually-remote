@@ -538,5 +538,25 @@
     "title": "↳Solutions Engineer London",
     "fit_score": 9,
     "alerted": true
+  },
+  "https://jobs.lever.co/yuno/321e6301-13f4-4fd7-b055-0db6e0039516": {
+    "status": "failed_jd_fetch",
+    "title": "Solutions EngineerEurope"
+  },
+  "https://jobs.lever.co/yuno/3a2a1909-b04f-4016-b8eb-0b10ffdcefb0": {
+    "status": "ai_failed",
+    "title": "Solutions Engineer - Financial InstitutionsEurope"
+  },
+  "https://jobs.lever.co/yuno/7b70c39b-970d-4b1a-8e67-cbb24ddb8034": {
+    "status": "failed_jd_fetch",
+    "title": "Technical Account ManagerColombia"
+  },
+  "https://jobs.lever.co/yuno/b21d3dbd-6ae1-41f3-8236-361ededa5808": {
+    "status": "failed_jd_fetch",
+    "title": "Technical Account ManagerBrazil"
+  },
+  "https://jobs.lever.co/yuno/25b816f9-b5a5-48b3-8f54-2ec30ac91774": {
+    "status": "failed_jd_fetch",
+    "title": "Technical Account Manager LeadUnited States"
   }
 }
