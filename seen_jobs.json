@@ -558,5 +558,12 @@
   "https://jobs.lever.co/yuno/25b816f9-b5a5-48b3-8f54-2ec30ac91774": {
     "status": "failed_jd_fetch",
     "title": "Technical Account Manager LeadUnited States"
+  },
+  "https://cast.ai/careers/apply/?gh_jid=4303526009": {
+    "first_seen": "2026-07-06T09:03:29.106645",
+    "company": "Cast AI",
+    "title": "Technical Support Engineering",
+    "fit_score": 6,
+    "alerted": false
   }
 }
