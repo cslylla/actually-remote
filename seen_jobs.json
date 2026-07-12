@@ -565,5 +565,19 @@
     "title": "Technical Support Engineering",
     "fit_score": 6,
     "alerted": false
+  },
+  "https://jobs.lever.co/yuno/ad80526e-51cd-463d-8377-88c3ed8de5df": {
+    "first_seen": "2026-07-12T07:31:32.256719",
+    "company": "Yuno",
+    "title": "Technical Account ManagerBrazil",
+    "fit_score": 8,
+    "alerted": true
+  },
+  "https://jobs.lever.co/yuno/f2bcc5d7-072d-4825-808f-cfd0af5a831a": {
+    "first_seen": "2026-07-12T07:31:56.636047",
+    "company": "Yuno",
+    "title": "Technical Account ManagerUnited States",
+    "fit_score": 9,
+    "alerted": true
   }
 }
