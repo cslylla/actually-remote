@@ -579,5 +579,12 @@
     "title": "Technical Account ManagerUnited States",
     "fit_score": 9,
     "alerted": true
+  },
+  "https://jobs.lever.co/yuno/fcbb37f9-c40c-4433-9fa5-e71215fea550": {
+    "first_seen": "2026-07-19T07:30:17.356601",
+    "company": "Yuno",
+    "title": "Technical Account ManagerColombia",
+    "fit_score": 8,
+    "alerted": true
   }
 }
