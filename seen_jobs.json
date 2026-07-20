@@ -586,5 +586,12 @@
     "title": "Technical Account ManagerColombia",
     "fit_score": 8,
     "alerted": true
+  },
+  "https://cast.ai/careers/apply/?gh_jid=4315536009": {
+    "first_seen": "2026-07-20T08:10:43.771194",
+    "company": "Cast AI",
+    "title": "Technical Account Manager | USA",
+    "fit_score": 6,
+    "alerted": false
   }
 }
