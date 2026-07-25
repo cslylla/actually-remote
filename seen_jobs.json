@@ -593,5 +593,12 @@
     "title": "Technical Account Manager | USA",
     "fit_score": 6,
     "alerted": false
+  },
+  "https://resend.com/careers/01e6eb42-142b-4f33-9944-ca153bd3ae86": {
+    "first_seen": "2026-07-25T07:22:17.945249",
+    "company": "Resend",
+    "title": "Customer Success EngineerAmericas / Remote / Full-time",
+    "fit_score": 8,
+    "alerted": true
   }
 }
