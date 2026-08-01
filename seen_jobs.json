@@ -600,5 +600,19 @@
     "title": "Customer Success EngineerAmericas / Remote / Full-time",
     "fit_score": 8,
     "alerted": true
+  },
+  "https://jobs.ashbyhq.com/supabase/dcf09dfe-55bc-44ba-b5db-1a2de7f33216": {
+    "first_seen": "2026-08-01T07:30:47.450601",
+    "company": "Supabase",
+    "title": "Support Engineer (AMER - Weekends)RemoteApply for position",
+    "fit_score": 9,
+    "alerted": true
+  },
+  "https://jobs.ashbyhq.com/supabase/590a0742-97f1-47f4-81a2-567efc939ae2": {
+    "first_seen": "2026-08-01T07:31:06.740452",
+    "company": "Supabase",
+    "title": "Support Engineer (EMEA - Weekends)RemoteApply for position",
+    "fit_score": 9,
+    "alerted": true
   }
 }
