@@ -628,5 +628,12 @@
     "title": "Customer Success EngineerNew York, New York",
     "fit_score": 9,
     "alerted": true
+  },
+  "https://www.featurebase.app/careers/technical-support-engineer": {
+    "first_seen": "2026-08-12T06:18:33.103530",
+    "company": "Featurebase",
+    "title": "Technical Support EngineerEuropeLearn more",
+    "fit_score": 8,
+    "alerted": true
   }
 }
