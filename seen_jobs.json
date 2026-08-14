@@ -635,5 +635,19 @@
     "title": "Technical Support EngineerEuropeLearn more",
     "fit_score": 8,
     "alerted": true
+  },
+  "https://job-boards.greenhouse.io/pandadoc/jobs/8106269": {
+    "first_seen": "2026-08-14T06:18:18.039558",
+    "company": "PandaDoc",
+    "title": "Senior Solutions EngineerRemote (USA)",
+    "fit_score": 2,
+    "alerted": false
+  },
+  "https://job-boards.greenhouse.io/pandadoc/jobs/8106390": {
+    "first_seen": "2026-08-14T06:18:38.562219",
+    "company": "PandaDoc",
+    "title": "Solutions EngineerRemote (USA)",
+    "fit_score": 8,
+    "alerted": true
   }
 }
