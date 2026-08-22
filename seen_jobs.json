@@ -649,5 +649,12 @@
     "title": "Solutions EngineerRemote (USA)",
     "fit_score": 8,
     "alerted": true
+  },
+  "https://job-boards.greenhouse.io/hightouch/jobs/6146017004": {
+    "first_seen": "2026-08-22T05:32:15.156182",
+    "company": "Hightouch",
+    "title": "Technical Account Manager, EMEA Europe",
+    "fit_score": 9,
+    "alerted": true
   }
 }
