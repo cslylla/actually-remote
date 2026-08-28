@@ -670,5 +670,12 @@
     "title": "↳Commercial Solutions EngineerAustin · San Francisco",
     "fit_score": 4,
     "alerted": false
+  },
+  "https://job-boards.greenhouse.io/hightouch/jobs/6167563004": {
+    "first_seen": "2026-08-28T17:14:57.478585",
+    "company": "Hightouch",
+    "title": "Customer Success EngineerNew York City, New York",
+    "fit_score": 9,
+    "alerted": true
   }
 }
