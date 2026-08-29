@@ -677,5 +677,19 @@
     "title": "Customer Success EngineerNew York City, New York",
     "fit_score": 9,
     "alerted": true
+  },
+  "https://www.sanity.io/careers/senior-support-engineer-eu": {
+    "first_seen": "2026-08-29T11:32:25.645032",
+    "company": "Sanity",
+    "title": "Senior Support Engineer, EU",
+    "fit_score": 9,
+    "alerted": true
+  },
+  "https://www.sanity.io/careers/senior-support-engineer-pdt": {
+    "first_seen": "2026-08-29T11:32:48.159516",
+    "company": "Sanity",
+    "title": "Senior Support Engineer, NORAM",
+    "fit_score": 2,
+    "alerted": false
   }
 }
