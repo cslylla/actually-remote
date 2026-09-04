@@ -691,5 +691,16 @@
     "title": "Senior Support Engineer, NORAM",
     "fit_score": 2,
     "alerted": false
+  },
+  "https://job-boards.greenhouse.io/hightouch/jobs/6182461004": {
+    "first_seen": "2026-09-04T09:25:12.901244",
+    "company": "Hightouch",
+    "title": "Solutions Engineer, Enterprise, EMEAEMEA",
+    "fit_score": 9,
+    "alerted": true
+  },
+  "https://job-boards.greenhouse.io/planetscale/jobs/4391516009": {
+    "status": "ai_failed",
+    "title": "Customer Support EngineerNewEMEA"
   }
 }
