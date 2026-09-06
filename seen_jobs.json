@@ -702,5 +702,19 @@
   "https://job-boards.greenhouse.io/planetscale/jobs/4391516009": {
     "status": "ai_failed",
     "title": "Customer Support EngineerNewEMEA"
+  },
+  "https://www.upwind.io/careers/co/australia-remote/DD.179/technical-account-manager/all": {
+    "first_seen": "2026-09-06T09:13:58.335810",
+    "company": "Upwind",
+    "title": "Technical Account Manager Australia (Remote)",
+    "fit_score": 8,
+    "alerted": true
+  },
+  "https://www.upwind.io/careers/co/india/4E.17D/solutions-architect/all": {
+    "first_seen": "2026-09-06T09:14:17.327542",
+    "company": "Upwind",
+    "title": "Solutions Architect India",
+    "fit_score": 8,
+    "alerted": true
   }
 }
