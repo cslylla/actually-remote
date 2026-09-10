@@ -723,5 +723,26 @@
     "title": "Production Support EngineerNewRemote - APAC",
     "fit_score": 7,
     "alerted": true
+  },
+  "https://job-boards.greenhouse.io/hightouch/jobs/6186762004": {
+    "first_seen": "2026-09-10T09:29:25.928571",
+    "company": "Hightouch",
+    "title": "Customer Success EngineerToronto, Ontario, Canada",
+    "fit_score": 8,
+    "alerted": true
+  },
+  "https://job-boards.greenhouse.io/hightouch/jobs/6186892004": {
+    "first_seen": "2026-09-10T09:29:46.613674",
+    "company": "Hightouch",
+    "title": "Customer Success EngineerRemote (PST or MT timezone)",
+    "fit_score": 8,
+    "alerted": true
+  },
+  "https://job-boards.greenhouse.io/hightouch/jobs/6186896004": {
+    "first_seen": "2026-09-10T09:30:07.888359",
+    "company": "Hightouch",
+    "title": "Customer Success EngineerVancouver, British Columbia, Canada",
+    "fit_score": 8,
+    "alerted": true
   }
 }
