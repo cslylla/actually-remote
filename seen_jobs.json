@@ -744,5 +744,19 @@
     "title": "Customer Success EngineerVancouver, British Columbia, Canada",
     "fit_score": 8,
     "alerted": true
+  },
+  "https://www.upwind.io/careers/co/tel-aviv/76.27A/technical-account-manager/all": {
+    "first_seen": "2026-09-13T10:05:37.315956",
+    "company": "Upwind",
+    "title": "Technical Account Manager Tel Aviv · Full-time",
+    "fit_score": 9,
+    "alerted": true
+  },
+  "https://www.upwind.io/careers/co/brazil/26.27D/technical-account-manager-latam/all": {
+    "first_seen": "2026-09-13T10:06:11.577191",
+    "company": "Upwind",
+    "title": "Technical Account Manager (LATAM) Brazil",
+    "fit_score": 6,
+    "alerted": false
   }
 }
