@@ -758,5 +758,12 @@
     "title": "Technical Account Manager (LATAM) Brazil",
     "fit_score": 6,
     "alerted": false
+  },
+  "https://www.sanity.io/careers/director-support-engineering": {
+    "first_seen": "2026-09-19T09:18:46.295784",
+    "company": "Sanity",
+    "title": "Director, Support Engineering",
+    "fit_score": 8,
+    "alerted": true
   }
 }
