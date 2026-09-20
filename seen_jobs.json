@@ -765,5 +765,12 @@
     "title": "Director, Support Engineering",
     "fit_score": 8,
     "alerted": true
+  },
+  "https://www.upwind.io/careers/co/australia/22.66E/technical-support-engineer-australia/all": {
+    "first_seen": "2026-09-20T09:41:04.450133",
+    "company": "Upwind",
+    "title": "Technical Support Engineer (Australia) Australia · Full-time",
+    "fit_score": 4,
+    "alerted": false
   }
 }
