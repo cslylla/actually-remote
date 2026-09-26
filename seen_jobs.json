@@ -779,5 +779,12 @@
     "title": "Forward Deployed EngineerRemote (North America)",
     "fit_score": 9,
     "alerted": true
+  },
+  "https://apply.remote.com/jobs/3fa54bb8-f45f-41c7-9d51-8460f936192e": {
+    "first_seen": "2026-09-26T09:46:24.749812",
+    "company": "Remote",
+    "title": "Senior Forward Deployed Engineer",
+    "fit_score": 9,
+    "alerted": true
   }
 }
