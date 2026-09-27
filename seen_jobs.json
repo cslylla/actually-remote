@@ -786,5 +786,26 @@
     "title": "Senior Forward Deployed Engineer",
     "fit_score": 9,
     "alerted": true
+  },
+  "https://www.upwind.io/careers/co/west-coast-remote/20.37F/solutions-architect-west/all": {
+    "first_seen": "2026-09-27T10:26:58.228888",
+    "company": "Upwind",
+    "title": "Solutions Architect - West West Coast (Remote)",
+    "fit_score": 8,
+    "alerted": true
+  },
+  "https://jobs.lever.co/yuno/615b33e6-e166-4c89-8153-293d466b513e": {
+    "first_seen": "2026-09-27T10:27:21.241824",
+    "company": "Yuno",
+    "title": "Solutions EngineerColombia",
+    "fit_score": 9,
+    "alerted": true
+  },
+  "https://jobs.lever.co/yuno/c59fa4ff-62f0-4ea1-96c6-a0828dc017f7": {
+    "first_seen": "2026-09-27T10:27:53.142192",
+    "company": "Yuno",
+    "title": "Technical Account ManagerBrazil",
+    "fit_score": 2,
+    "alerted": false
   }
 }
