@@ -807,5 +807,19 @@
     "title": "Technical Account ManagerBrazil",
     "fit_score": 2,
     "alerted": false
+  },
+  "https://attio.com/careers/solutions-engineering-manager-new-york-hybrid": {
+    "first_seen": "2026-09-28T11:35:04.981165",
+    "company": "Attio",
+    "title": "15Solutions Engineering ManagerNew York [Hybrid]",
+    "fit_score": 1,
+    "alerted": false
+  },
+  "https://attio.com/careers/solutions-engineering-manager-san-francisco-hybrid": {
+    "first_seen": "2026-09-28T11:35:30.658726",
+    "company": "Attio",
+    "title": "16Solutions Engineering ManagerSan Francisco [Hybrid]",
+    "fit_score": 9,
+    "alerted": true
   }
 }
