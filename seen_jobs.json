@@ -828,5 +828,131 @@
     "title": "Customer Support EngineerUS",
     "fit_score": 8,
     "alerted": true
+  },
+  "https://hightouch.com/careers/eaa2fdb6-3f48-4fa2-9947-e1a397a176ab": {
+    "first_seen": "2026-10-03T10:17:42.302425",
+    "company": "Hightouch",
+    "title": "Customer Success EngineerSan Francisco Office",
+    "fit_score": 9,
+    "alerted": true
+  },
+  "https://hightouch.com/careers/f0ca7412-52b7-42f6-8848-33860c98dbf2": {
+    "first_seen": "2026-10-03T10:17:57.250683",
+    "company": "Hightouch",
+    "title": "Customer Success EngineerNew York Office",
+    "fit_score": 9,
+    "alerted": true
+  },
+  "https://hightouch.com/careers/d47b2d53-0ec4-4216-a722-ae4199bf7247": {
+    "first_seen": "2026-10-03T10:18:16.200519",
+    "company": "Hightouch",
+    "title": "Customer Success EngineerNew York Office",
+    "fit_score": 8,
+    "alerted": true
+  },
+  "https://hightouch.com/careers/08eff011-1edd-4309-bfe0-e8cdd2db37b2": {
+    "first_seen": "2026-10-03T10:18:36.441535",
+    "company": "Hightouch",
+    "title": "Customer Success EngineerSan Francisco Office",
+    "fit_score": 9,
+    "alerted": true
+  },
+  "https://hightouch.com/careers/cc529e12-abff-40cb-b5c0-d4d1c6c495b0": {
+    "first_seen": "2026-10-03T10:18:52.664391",
+    "company": "Hightouch",
+    "title": "Customer Success Engineer London",
+    "fit_score": 8,
+    "alerted": true
+  },
+  "https://hightouch.com/careers/cdf151e2-3093-4871-963b-65277cb40a75": {
+    "first_seen": "2026-10-03T10:19:09.112415",
+    "company": "Hightouch",
+    "title": "Technical Account Manager, EMEA Remote",
+    "fit_score": 9,
+    "alerted": true
+  },
+  "https://hightouch.com/careers/6d3527b9-4f72-4a53-b837-daec9016b8e5": {
+    "first_seen": "2026-10-03T10:19:30.122235",
+    "company": "Hightouch",
+    "title": "Technical Account Manager, Enterprise (West)San Francisco Office",
+    "fit_score": 9,
+    "alerted": true
+  },
+  "https://hightouch.com/careers/dace612e-16c3-49a2-b1fe-622d80516f2d": {
+    "first_seen": "2026-10-03T10:19:57.101670",
+    "company": "Hightouch",
+    "title": "Forward Deployed EngineerNew York Office",
+    "fit_score": 9,
+    "alerted": true
+  },
+  "https://hightouch.com/careers/ebba2ef1-c357-40ad-b81b-6db0e67ac9e8": {
+    "first_seen": "2026-10-03T10:20:18.238430",
+    "company": "Hightouch",
+    "title": "Partner Solutions EngineerRemote",
+    "fit_score": 8,
+    "alerted": true
+  },
+  "https://hightouch.com/careers/1f01f34b-b0bd-493f-8405-9d6536cab79a": {
+    "first_seen": "2026-10-03T10:20:46.166130",
+    "company": "Hightouch",
+    "title": "Solutions Engineer, Enterprise East (Pre-Sales)New York Office",
+    "fit_score": 2,
+    "alerted": false
+  },
+  "https://hightouch.com/careers/4be3cf34-de9d-4fc3-884c-13cd5f868204": {
+    "first_seen": "2026-10-03T10:21:08.789802",
+    "company": "Hightouch",
+    "title": "Solutions Engineer, Enterprise East (Pre-Sales)New York Office",
+    "fit_score": 9,
+    "alerted": true
+  },
+  "https://hightouch.com/careers/b3ebf101-a64a-4448-b455-6add06bceac3": {
+    "first_seen": "2026-10-03T10:21:27.815710",
+    "company": "Hightouch",
+    "title": "Solutions Engineer, Enterprise, EMEALondon",
+    "fit_score": 8,
+    "alerted": true
+  },
+  "https://hightouch.com/careers/060808fc-d1b6-4479-bb28-e983216f9040": {
+    "first_seen": "2026-10-03T10:21:50.878797",
+    "company": "Hightouch",
+    "title": "Solutions Engineer, Enterprise West (Pre-Sales)San Francisco Office",
+    "fit_score": 7,
+    "alerted": true
+  },
+  "https://hightouch.com/careers/9eca924a-4805-47ff-8649-01be37ad53cd": {
+    "first_seen": "2026-10-03T10:22:11.256608",
+    "company": "Hightouch",
+    "title": "Solutions Engineering ManagerNew York Office",
+    "fit_score": 8,
+    "alerted": true
+  },
+  "https://hightouch.com/careers/1a1d75dc-10d4-4497-85fc-4772de095080": {
+    "first_seen": "2026-10-03T10:22:29.137801",
+    "company": "Hightouch",
+    "title": "Solutions Engineer, Mid-Market East (Pre-Sales)New York Office",
+    "fit_score": 2,
+    "alerted": false
+  },
+  "https://hightouch.com/careers/9e1fc443-f830-4977-9eeb-9b06bdcf59f5": {
+    "first_seen": "2026-10-03T10:22:46.074904",
+    "company": "Hightouch",
+    "title": "Solutions Engineer, Mid-Market, EMEALondon",
+    "fit_score": 7,
+    "alerted": true
+  },
+  "https://hightouch.com/careers/a016d776-756f-4bb3-b3f0-136509c8e38f": {
+    "first_seen": "2026-10-03T10:23:10.691658",
+    "company": "Hightouch",
+    "title": "Solutions Engineer, Mid-Market West (Pre-Sales)San Francisco Office",
+    "fit_score": 9,
+    "alerted": true
+  },
+  "https://hightouch.com/careers/bab7802b-2f38-458d-b5c5-58146ee2922a": {
+    "first_seen": "2026-10-03T10:23:36.866101",
+    "company": "Hightouch",
+    "title": "Solutions Engineer, Senior Enterprise (Pre-Sales)New York Office",
+    "fit_score": 9,
+    "alerted": true
   }
 }
