@@ -996,5 +996,19 @@
     "title": "Solutions Engineer, APACSingaporeLearn more→",
     "fit_score": 4,
     "alerted": false
+  },
+  "https://www.tigerdata.com/careers/ad4d08bc-1f76-4901-918a-2eb19e619acd": {
+    "first_seen": "2026-10-25T09:40:15.811984",
+    "company": "Tiger Data",
+    "title": "Database Support Engineer, EMEA",
+    "fit_score": 8,
+    "alerted": true
+  },
+  "https://jobs.ashbyhq.com/zapier/eaf4ef36-116b-4aa1-b874-7474b16851e6": {
+    "first_seen": "2026-10-25T09:40:35.536904",
+    "company": "Zapier",
+    "title": "Sr. Technical Account Manager",
+    "fit_score": 9,
+    "alerted": true
   }
 }
