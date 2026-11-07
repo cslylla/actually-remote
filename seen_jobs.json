@@ -1031,5 +1031,19 @@
     "title": "Solutions Engineer, AgencyRemote (North America)",
     "fit_score": 9,
     "alerted": true
+  },
+  "https://jobs.ashbyhq.com/supabase/b3f21933-4009-4454-899a-8e8a17f7ddfb": {
+    "first_seen": "2026-11-07T11:36:11.185996",
+    "company": "Supabase",
+    "title": "Technical Account Manager (APJ)Remote, JapanApply for position",
+    "fit_score": 9,
+    "alerted": true
+  },
+  "https://www.sanity.io/careers/senior-solutions-architect-german-speaking": {
+    "first_seen": "2026-11-07T11:36:29.176174",
+    "company": "Sanity",
+    "title": "Senior Solutions Architect (German speaking)",
+    "fit_score": 8,
+    "alerted": true
   }
 }
