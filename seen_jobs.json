@@ -1045,5 +1045,19 @@
     "title": "Senior Solutions Architect (German speaking)",
     "fit_score": 8,
     "alerted": true
+  },
+  "https://www.upwind.io/careers/co/argentina/7B.47A/technical-account-manager-latam-spanish-speaking/all": {
+    "first_seen": "2026-11-08T11:48:14.288657",
+    "company": "Upwind",
+    "title": "Technical Account Manager – LATAM (Spanish-Speaking) Argentina",
+    "fit_score": 2,
+    "alerted": false
+  },
+  "https://www.upwind.io/careers/co/colombia/7B.47A-53.606/technical-account-manager-latam-spanish-speaking/all": {
+    "first_seen": "2026-11-08T11:48:29.706374",
+    "company": "Upwind",
+    "title": "Technical Account Manager – LATAM (Spanish-Speaking) Colombia",
+    "fit_score": 2,
+    "alerted": false
   }
 }
