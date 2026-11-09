@@ -1059,5 +1059,12 @@
     "title": "Technical Account Manager – LATAM (Spanish-Speaking) Colombia",
     "fit_score": 2,
     "alerted": false
+  },
+  "https://cast.ai/careers/apply/?gh_jid=4387933009": {
+    "first_seen": "2026-11-09T13:43:12.194190",
+    "company": "Cast AI",
+    "title": "Technical Account Manager | India",
+    "fit_score": 9,
+    "alerted": true
   }
 }
