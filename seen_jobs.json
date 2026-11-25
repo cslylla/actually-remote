@@ -1080,5 +1080,19 @@
     "title": "Enterprise Solutions Engineer, Singapore (Pre-Sales)Remote (Asia-Pacific)",
     "fit_score": 8,
     "alerted": true
+  },
+  "https://job-boards.greenhouse.io/gitlabcrm/jobs/8096741002": {
+    "first_seen": "2026-11-25T15:23:20.590515",
+    "company": "GitLab",
+    "title": "Join our solutions architect talent pool",
+    "fit_score": 9,
+    "alerted": true
+  },
+  "https://job-boards.greenhouse.io/gitlabcrm/jobs/8098448002": {
+    "first_seen": "2026-11-25T15:23:51.050133",
+    "company": "GitLab",
+    "title": "Join our support engineer talent pool",
+    "fit_score": 9,
+    "alerted": true
   }
 }
