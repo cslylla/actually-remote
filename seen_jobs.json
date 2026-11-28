@@ -1094,5 +1094,12 @@
     "title": "Join our support engineer talent pool",
     "fit_score": 9,
     "alerted": true
+  },
+  "https://www.sanity.io/careers/staff-forward-deployed-engineer": {
+    "first_seen": "2026-11-28T13:59:13.549796",
+    "company": "Sanity",
+    "title": "Staff Forward Deployed Engineer",
+    "fit_score": 9,
+    "alerted": true
   }
 }
